@@ -10,6 +10,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material/material.module';
 import { HeroeCardComponent } from './components/heroe-card/heroe-card.component';
 import { PipeImagePipe } from './pipes/pipe-image.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -28,6 +29,7 @@ import { PipeImagePipe } from './pipes/pipe-image.pipe';
     CommonModule,
     FlexLayoutModule,
     HeroesRoutingModule,
+    FormsModule,
     MaterialModule
   ]
 })
